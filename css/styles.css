@@ -1,4 +1,10 @@
 /* SITE-HEADER */
+body{
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
 .site-header{
   background-color:#fff;
 
@@ -16,7 +22,6 @@
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
-  list-style: none;
 }
 
 .orange-button{
@@ -44,16 +49,11 @@
 }
 
 .hero-heading{
+  font-family: "Roboto Condensed","Roboto", "Arial", sans-serif;
   font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 
-.hero-text{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
 
 .hero-img{
   width: 510px;
@@ -66,6 +66,7 @@
 }
 
 .features-heading{
+  font-family: "Roboto Condensed","Roboto", "Arial", sans-serif;
   width: 440px;
   font-size: 72px;
   line-height: 1.2;
@@ -86,13 +87,7 @@
 .feature-title{
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.feature-info{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed","Roboto", "Arial", sans-serif;
 }
 
 /* SALE */
@@ -106,15 +101,9 @@
 }
 
 .sale-heading{
+  font-family: "Roboto Condensed","Roboto", "Arial", sans-serif;
   font-size: 40px;
   line-height: 48px;
-  letter-spacing: 0.5px;
-}
-
-.sale-text{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 }
 
 .sale-highlight{
@@ -143,11 +132,10 @@
 
 .site-footer-links-list{
   width: 224px;
+  line-height: 19px;
 }
 
 .site-footer-links-list a{
   color: #252420;
-  font-size: 16px;
-  line-height: 19px;
   text-decoration: none;
 }
