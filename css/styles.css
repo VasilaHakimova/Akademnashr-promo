@@ -37,6 +37,14 @@ body{
   list-style: none;
   display: flex;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+.sitenav-item {
+  margin-right: 32px;
+}
+.sitenav-item:last-child {
+  margin-right: 0;
 }
 
 .sitenav-link{
