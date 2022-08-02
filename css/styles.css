@@ -5,6 +5,10 @@ body{
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
+*:focus{
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
 .site-header{
   background-color:#fff;
   justify-content: space-between;
@@ -207,6 +211,6 @@ body{
 .site-footer-links-list a:hover{
   color: #ff7500;
 }
-.site-footer-links-list a:focus{
+.site-footer-links-list a:active{
   opacity: 0.6;
 }
