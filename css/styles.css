@@ -27,6 +27,9 @@ body{
 .logo-link:active{
   opacity: 0.6;
 }
+.logo-link img {
+  display: block;
+}
 
 .site-header-actions{
   display: flex;
@@ -248,6 +251,7 @@ body{
 
 .site-footer-socials a{
   color: #252420;
+  display: block;
 }
 
 .site-footer-socials a:hover{
@@ -256,7 +260,9 @@ body{
 .site-footer-socials a:active{
   opacity: 0.6;
 }
-
+.site-footer-socials svg{
+  display: block;
+}
 .footer-hr{
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
